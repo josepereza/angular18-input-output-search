@@ -1,0 +1,10 @@
+input[type=search] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 30px;
+    width: 200px;
+    background: #CCC;
+    color: orangered;
+}

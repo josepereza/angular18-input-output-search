@@ -1,0 +1,13 @@
+<div class="search-container">
+<h1>Movie Search</h1>
+
+ <h2>Name Film : {{name}}</h2>
+<input type="search"
+[formControl]="searchTerm" 
+placeholder="Search movies..."
+class="search-input"
+>
+{{searchTerm.value}}
+
+<app-movie-list [searchInput]="searchTerm.value!" (onMovieClick)="nameMovie($event)"  ></app-movie-list>
+</div>
